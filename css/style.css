@@ -59,8 +59,11 @@ ul { list-style: none; }
 }
 
 .nav__logo img {
-  height: 48px;
+  height: 44px;
   width: auto;
+  background: var(--blanco);
+  border-radius: 3px;
+  padding: 4px 10px;
 }
 
 .nav__links {
@@ -738,7 +741,13 @@ ul { list-style: none; }
 }
 @media (max-width: 600px) { .footer__inner { grid-template-columns: 1fr; gap: 2rem; } }
 
-.footer__logo img { height: 44px; margin-bottom: 0.75rem; }
+.footer__logo {
+  height: 44px;
+  margin-bottom: 0.75rem;
+  background: var(--blanco);
+  border-radius: 3px;
+  padding: 4px 10px;
+}
 .footer__slogan {
   font-size: 0.85rem;
   color: rgba(255,255,255,0.65);
